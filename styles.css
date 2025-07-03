@@ -147,7 +147,8 @@ i {
 }
 @media screen and (max-width: 768px) {
   .hero {
-    min-width: 60vh;
+    min-height: 60vh;
+    padding: 40px 20px;
   }
   .hero h1 {
     font-size: 34px;
