@@ -122,6 +122,9 @@ i {
   text-align: center;
   margin: 14px 0;
 }
+.hero strong {
+  color: #d34040;
+}
 
 .button-contact {
   padding: 14px 28px;
@@ -179,6 +182,7 @@ i {
 }
 .about-content img {
   max-width: 570px;
+  border-radius: 8%;
 }
 
 .about-content div {
@@ -286,7 +290,7 @@ iframe {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 54px 0;
+  padding: 54px;
   gap: 24px;
   color: #fff;
 }
