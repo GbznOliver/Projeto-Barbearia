@@ -51,6 +51,10 @@
         text-align: center;
         margin: 14px 0;
     }
+
+    strong {
+        color: $red-light;
+    }
 }
 
 .button-contact {
@@ -120,6 +124,7 @@
 
     img {
         max-width: 570px;
+        border-radius: 8%;
     }
 }
 
@@ -235,6 +240,7 @@
 
 }
 
+
 //----------------------------
 
 //----------Footer--------------
@@ -248,7 +254,7 @@ iframe {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 54px 0;
+    padding: 54px;
     gap: 24px;
     color: $white-normal;
 }
